@@ -55,6 +55,6 @@ public class Employee {
     }
 
     public void printInfo(){
-        System.out.println(this.toString());
+        System.out.println(this);
     }
 }
