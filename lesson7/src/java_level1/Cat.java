@@ -9,7 +9,6 @@ public class Cat {
     public Cat(String name, int appetite) {
         this.name = name;
         this.appetite = appetite;
-        this.fullness = false;
     }
 
     //Этот вариант по образцу, что Вы показывали на лекции (Кот ест столько, сколько может)
