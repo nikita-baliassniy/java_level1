@@ -31,7 +31,7 @@ public class TemperatureWindow extends JFrame {
         convertButton.setEnabled(true);
         convertButton.addActionListener(i -> {
             String celsiusDegreesString = fieldToConvert.getText().replaceAll(",", ".");
-            if (celsiusDegreesString.equals("")) {
+            if (celsiusDegreesString.isEmpty()) {
                 areaConverted.setText("No celsius degrees to convert");
             } else {
                 try {
